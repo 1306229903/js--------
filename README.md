@@ -6,4 +6,7 @@
   
   后面使用scrollHeight，offsetHeight这两个属性值来判断是否溢出，用innerText取得div内的字符数后，存入一个新数组，之后用substr来动态改变div内的字符数
   ，当substr取得的字符数使得scrollHeight大于offsetHeight时就将每个层设置overflow：hidden，然后删除若干个字符，把省略号添加进去。
-    这样便实现了这个效果
+    这样便实现了这个效果  
+   
+   
+   ![image](https://github.com/1306229903/js--------/blob/master/img/1.jpg)
